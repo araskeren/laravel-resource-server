@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Quick Setup
+1. Install Laravel
+```bash
+composer install
+```
+2. Generate the client
+```bash
+php artisan passport:client --public
+```
+3. Copy the Client ID to the client-app .env file
+3. Run the server
+```bash
+php artisan serve
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
