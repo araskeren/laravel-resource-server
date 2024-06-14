@@ -21,5 +21,5 @@ return [
     /*
      * User Filament Shield
      */
-    "shield" => true,
+    "shield" => false,
 ];
