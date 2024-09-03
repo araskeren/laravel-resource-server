@@ -21,6 +21,10 @@ php artisan passport:client --public
 ```bash
 php artisan serve
 ```
+4. Generate User
+```bash
+php artisan make:filament-user
+```
 
 ## About Laravel
 
